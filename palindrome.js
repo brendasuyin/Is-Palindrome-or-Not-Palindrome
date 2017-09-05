@@ -1,11 +1,11 @@
 function isPalindrome(str){
 	if (str !== str.split("").reverse("").join("")){
-		return false;
+		return str + (" is not polindrome");
 	}
 
-	else {return true;}
+	else {return str + (" is polindrome");}
 }
 
 
-document.write(isPalindrome("head"));
+document.write(isPalindrome("Brenda"));
 
